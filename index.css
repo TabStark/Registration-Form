@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp2436486.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;    
+    
+}
+body:hover{
+    background-image: url("https://wallpapercave.com/wp/wp2407334.jpg");
+    background-size: 1350px;
+}
+
+.headname {
+    display: block;
+    margin: 8px 15px;
+    padding: 15px 14px;
+    width: 900px;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar {
+    background-color: maroon;
+    height: 65px;
+    border-radius: 7px;
+    position: relative;
+    bottom: 8px;
+}
+
+.navbar ul {
+    overflow: auto;
+    margin-left: 850px;
+    position: relative;
+    bottom: 50px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 1px 20px;
+    margin: 1px 5px;
+    list-style: none;
+
+
+}
+
+.navbar li a {
+
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.navbar li a:hover {
+    color: black;
+}
+
+
+.regform {
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 10px;
+    width: 500px;
+    padding: 20px 50px;
+    color: rgb(164, 34, 34);
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid white; 
+    background-color: rgba(255, 255, 255, 0.826);
+    border-radius: 10px;
+    
+}
+
+h2{
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 28px;
+}
+
+.newbtn input{
+    padding: 6px 13px;
+    position: relative;
+    left: 110px;
+    width: 100px;
+    margin: 16px, 8px;
+    border-radius: 7px;
+    border-color: maroon;
+    cursor: pointer;
+    background-color: white;
+    color: maroon;
+    
+}  
+.newbtn input:hover{
+    color: white;
+    background-color: maroon;
+
+}
+.item select:hover{
+    color: white;
+    background-color: maroon;
+
+}
+
+p{
+    
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    -webkit-text-stroke: 1px blue;
+    font-family: 'Ramabhadra', sans-serif;
+    text-align: center;
+}

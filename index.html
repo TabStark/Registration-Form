@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCU</title>
+
+    <!-- styling sheet -->
+    <link rel="stylesheet" href="index.css"> 
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <header>
+        <nav class="navbar">
+            <div class="headname">Marvel Cinematic Universe</div>
+            <ul>
+
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Paragraph -->
+    <p>Welcome to Marvel Cinematic Universe Concert</p>
+
+    
+    <!-- registration form    -->
+    <div class="regform">
+        <form action="backend.pho">
+
+            <h2>Registration From</h2>
+            <div class="item">
+                Name:
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                    type="text" name="Myname" placeholder="Enter your Name">
+            </div>
+            <br>
+            <div class="item">
+                Date of Birth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="myDOB">
+            </div>
+            <br>
+            <div class="item">
+                Email
+                id:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                    type="email" name="myid" placeholder="Enter your EMail ID">
+            </div>
+            <br>
+            <div class="item">
+                Mobile No:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                    type="number" name="mynumber" placeholder="Enter your Mobile Number">
+            </div>
+            <br>
+            <div class="item">
+                Number of Tickets: <input type="number" name="ticket" placeholder="No. of Tickets"> 
+            </div>
+            <br>
+            <div class="item" >
+                <label for="seatingoption">Seating Option</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="myseat" id="seatingoption">
+                    <option value="select">Select</option>
+                    <option value="front">Front</option>
+                    <option value="middle">Middle</option>
+                    <option value="last">last</option>
+                </select>
+                <br>
+            </div>
+            <br>
+            <div class="newbtn" id="button">
+               <input type="submit" name="Submit Now"  > 
+               <input type="reset" name="reset now" > 
+            </div>
+
+             
+        </form>
+    </div>
+</body>
+
+</html>
